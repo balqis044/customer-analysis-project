@@ -1,7 +1,7 @@
 import pandas as pd
 
 def run_analysis(filepath):
-    df = pd.read_csv("C:/Users/balqe/OneDrive/Desktop/new_retail_data.csv")
+    df = pd.read_csv(r"C:/Users/balqe/OneDrive/Desktop/new_retail_data.csv")
 
     # 🟢 مثال تنظيف (عدليه حسب داتك)
     df['date'] = pd.to_datetime(df['date'])
